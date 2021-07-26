@@ -31,7 +31,21 @@ long Factorial(int no)
 {
   no = 1;
     for (int r=n; r >= 1; r--) {
-        no = no * r
+        no = no * r;
     }
+  return no;
+  no = 1;
+    for (int r=r; r >= 1; r--) {
+        no = no * r;
+    }
+  return no;
+  no = 1;
+    for (int r=(n-r); r >= 1; r--) {
+        no = no * r;
+    }
+  return no;
 }
 long nCr(int n, int r)
+{
+  return n / (r (n-r));
+}
